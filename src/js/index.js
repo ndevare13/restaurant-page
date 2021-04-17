@@ -1,11 +1,13 @@
 require('../css/style.css');
+import { createNavigationBarElements } from './navigationBar';
 import { createHomePageElements } from './home';
 import { createMenuPageElements } from './menu';
 import { createContactPageElements } from './contact';
 
-console.log('hi');
-
 const contentDiv = document.querySelector('#content');
+
+contentDiv.appendChild(createNavigationBarElements());
+
 const homeButton = document.querySelector('#home-button');
 const menuButton = document.querySelector('#menu-button');
 const contactButton = document.querySelector('#contact-button');
