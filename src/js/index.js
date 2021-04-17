@@ -1,4 +1,3 @@
 require('../css/style.css');
 
-console.log('Hi!');
-console.log('Hello!');
+const contentDiv = document.querySelector('#content');

@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add --dev @fortawesome/free-solid-svg-icons
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://npm.fontawesome.com/@fortawesome%2ffree-solid-svg-icons: authentication required
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "restaurant-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ndevare13/restaurant-page.git"
+    },
+    "author": "ndevare13",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ndevare13/restaurant-page/issues"
+    },
+    "homepage": "https://github.com/ndevare13/restaurant-page#readme",
+    "devDependencies": {
+      "css-loader": "^5.2.1",
+      "style-loader": "^2.0.0",
+      "webpack": "^5.33.2",
+      "webpack-cli": "^4.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

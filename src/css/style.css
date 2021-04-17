@@ -88,10 +88,10 @@ div>ul>li>a {
 
 #main-img {
     display: block;
-    width: 500px;
-    height: 709px;
+    width: 31.25em;
+    height: 44.3125em;
     position: absolute;
-    top: 14%;
+    top: 15%;
     left: 10%;
 }
 
@@ -99,4 +99,55 @@ div>ul>li>a {
     width: 100vw;
     height: 50vh;
     background-color: #36454f;
+}
+
+.tagline {
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.5em;
+}
+
+#contact {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#contact p {
+    font-family: 'Cardo', serif;
+}
+
+#contact h2 {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-div p {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1.5em;
 }
