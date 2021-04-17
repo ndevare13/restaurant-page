@@ -151,3 +151,38 @@ p {
     grid-template-rows: repeat(3, auto);
     grid-gap: 1.5em;
 }
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+    padding: 60px 70px;
+    grid-gap: 50px;
+}
+
+.menu-food-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+#menu h5 {
+    margin: 15px 0px;
+    padding-left: 25px;
+    font-size: 1.2em;
+}
+
+#menu p {
+    padding-left: 25px;
+    font-family: 'Cardo', serif;
+    font-size: 1.2em;
+}
+
+#menu img {
+    display: block;
+    width: 128px;
+    height: 108px;
+    padding: 15px 25px;
+}
